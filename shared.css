@@ -2,6 +2,7 @@
 :root {
   --active-color-blue: #1967d2;
   --border-grey: #d6d6d6;
+  --active-icon-blue: #4285f4;
 }
 
 /* base setup */
@@ -68,4 +69,8 @@ body {
 .header-nav__item--active {
   border-bottom: 3px solid var(--active-color-blue);
   color: var(--active-color-blue);
+}
+
+.flex-box {
+  display: flex;
 }
