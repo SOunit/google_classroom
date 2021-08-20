@@ -73,6 +73,11 @@ body {
   background-color: var(--active-bg-blue);
 }
 
+.header-nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
 .flex-box {
   display: flex;
 }
