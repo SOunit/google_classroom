@@ -1,3 +1,9 @@
+/* common props */
+:root {
+  --active-color-blue: #1967d2;
+  --border-grey: #d6d6d6;
+}
+
 /* base setup */
 * {
   box-sizing: border-box;
@@ -9,14 +15,9 @@ body {
   color: #333;
 }
 
-/* common props */
-:root {
-  --active-color-blue: #1967d2;
-}
-
 /* header */
 .header-container {
-  border-bottom: 1px solid rgb(214, 214, 214);
+  border-bottom: 1px solid var(--border-grey);
 }
 
 .header {
