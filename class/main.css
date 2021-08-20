@@ -6,3 +6,18 @@
   border: 1px solid var(--border-grey);
   border-radius: 10px;
 }
+
+.icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 1rem;
+}
+
+.icons__link {
+  text-decoration: none;
+  color: var(--active-color-blue);
+}
+
+.actions .icon {
+  margin: 0.5rem;
+}
