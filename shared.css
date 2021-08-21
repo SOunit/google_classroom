@@ -1,0 +1,83 @@
+/* common props */
+:root {
+  --active-color-blue: #1967d2;
+  --border-grey: #d6d6d6;
+  --active-icon-blue: #4285f4;
+  --active-bg-blue: #e8f0fe;
+}
+
+/* base setup */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+/* header */
+.header-container {
+  border-bottom: 1px solid var(--border-grey);
+}
+
+.header {
+  /* border: 1px solid blue; */
+  display: flex;
+  align-items: center;
+  padding: 0.5rem;
+}
+
+.header__title {
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.header-icon {
+  /* border: 1px solid blue; */
+  height: 2rem;
+  width: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 2rem;
+}
+
+.header-icon__bar {
+  height: 0.3rem;
+  width: 100%;
+  margin: 0.1rem 0;
+  background-color: grey;
+  border-radius: 12px;
+}
+
+.header-nav__items {
+  display: flex;
+  list-style: none;
+  /* border: 1px solid blue; */
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+.header-nav__item {
+  /* border: 1px solid blue; */
+  padding: 1rem;
+}
+
+.header-nav__item--active {
+  border-bottom: 3px solid var(--active-color-blue);
+  color: var(--active-color-blue);
+  background-color: var(--active-bg-blue);
+}
+
+.header-nav__link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.flex-box {
+  display: flex;
+}
