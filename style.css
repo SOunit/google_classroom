@@ -1,0 +1,254 @@
+/* common props */
+:root {
+    --active-color-blue: #1967d2;
+    --border-grey: #d6d6d6;
+    --active-icon-blue: #4285f4;
+    --active-bg-blue: #e8f0fe;
+  }
+  
+  /* base setup */
+  * {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  /* header */
+  .header-container {
+    border-bottom: 1px solid var(--border-grey);
+  }
+  
+  .header {
+    /* border: 1px solid blue; */
+    display: flex;
+    align-items: center;
+    padding: 0.5rem;
+  }
+  
+  .header__title {
+    font-size: 1rem;
+    font-weight: normal;
+  }
+  
+  .header-icon {
+    /* border: 1px solid blue; */
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 2rem;
+  }
+  
+  .header-icon__bar {
+    height: 0.3rem;
+    width: 100%;
+    margin: 0.1rem 0;
+    background-color: grey;
+    border-radius: 12px;
+  }
+  
+  .header-nav__items {
+    display: flex;
+    list-style: none;
+    /* border: 1px solid blue; */
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .header-nav__item {
+    /* border: 1px solid blue; */
+    padding: 1rem;
+  }
+  
+  .header-nav__item--active {
+    border-bottom: 3px solid var(--active-color-blue);
+    color: var(--active-color-blue);
+    background-color: var(--active-bg-blue);
+  }
+  
+  .header-nav__link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  .flex-box {
+    display: flex;
+  }
+
+  #rcorners1 {
+    border-radius: 15px;
+    background:#4285f4;
+    padding: 40px;
+    width: 95%;
+    height: 300px;
+    margin: auto;
+    font-size: 2.75rem;
+    color: white;
+    overflow-x: hidden;
+   
+  
+}
+#container { 
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    height:77px;
+    margin: 1px;
+    background: #FFFFFF; 
+    border: 1px solid #EBEBEB; 
+    text-align: left; 
+    
+  
+    
+    
+    
+} 
+#sidebar { 
+    border-radius: 15px;
+    padding: 0px;
+    width: 25%;
+    height: 150px;
+    margin: 40px;
+    background: #FFFFFF; 
+    border: 1px solid #EBEBEB; 
+    text-align: left; 
+    float: left; 
+    font-size: 1.5rem;
+    font-style: monospace ;
+    overflow:hidden;
+      
+} 
+#sidebar1 { 
+    
+    padding: 10px;
+    width: 30%;
+    height: 40%;
+    margin: 1px;
+    background: #FFFFFF; 
+   
+    text-align: left; 
+    float: left; 
+    font-size: 1.5rem;
+    font-style: monospace ;
+      
+} 
+#sidebar2 { 
+    padding: 10px;
+    width: 270px;
+    position: relative;
+    height: 40px;
+    margin-top: 55px;
+    margin-left: -90px;
+    background: #FFFFFF; 
+    text-align: left; 
+    float: left; 
+    font-size: 1rem;
+    overflow:hidden;
+    
+    
+    
+      
+} 
+#sidebar3 { 
+    border-radius: 15px;
+    padding: 0px;
+    width: 63%;
+    height: 30px;
+    margin: 100px;
+    background: #FFFFFF; 
+  
+    text-align: left; 
+    float:inline-end; 
+    font-size: 1.1rem;
+    font-style: monospace ;
+    text-align: right;
+    color:blue;
+    overflow-block:inherit;
+   
+      
+} 
+#hiddenside { 
+    border-radius: 15px;
+    padding: 40px;
+    width: 65%;
+    height: 800px;
+    margin: 1px;
+    background: #FFFFFF; 
+    border: 1px solid #EBEBEB; 
+    text-align: left; 
+    float: left; 
+    
+} 
+
+#yourphoto { 
+    border-radius: 50%;
+    padding: 0px;
+    width: 60px;    height: 60px;
+    margin: -18px;
+    background: #FFFFFF; 
+    border: 1px solid #EBEBEB; 
+    text-align: left; 
+    float: left; 
+    font-size: 1rem;
+    font-style: monospace ;
+    background-image:url(./unnamed.jpg);
+    color: grey;
+      
+} 
+
+#yourdocu { 
+    border-radius: 50%;
+    padding: 0px;
+    width: 60px;    height: 60px;
+    margin: -18px;
+    background: #FFFFFF; 
+    border: 1px solid #EBEBEB; 
+    text-align: left; 
+    float: left; 
+    font-size: 1rem;
+    font-style: monospace ;
+    background-size: contain;
+    background-image:url(./documents.png);
+    color: grey;
+     
+} 
+#announ { 
+    
+    padding: 20px;
+    width: 550px;    height:20%;
+    margin: 1px;
+    margin-left:80px;
+    background: white; 
+    border: 1px solid transparent; 
+    text-align: left; 
+    float: left; 
+    font-size: 1rem;
+    font-style: monospace ;
+    overflow-block:inherit ;
+    color: grey;
+         
+} 
+
+#announdocu { 
+    
+    padding: 20px;
+    width: 550px;    height:20%;
+    margin: 1px;
+    margin-left:80px;
+    background: white; 
+    border: 1px solid transparent; 
+    text-align: left; 
+    float: left; 
+    font-size: 1rem;
+    font-style: monospace ;
+    overflow-block:inherit ;
+    color: black;
+         
+} 
